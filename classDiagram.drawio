@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T15:29:33.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2-bALBSsUr_tMADsWpV8" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T15:52:12.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="scgtZF7xdNeCV6qS1K3p" version="20.3.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="692" dy="393" grid="1" gridSize="3.937" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="830" dy="471" grid="1" gridSize="3.937" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -809,6 +809,49 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="247.82999999999998" y="511.80999999999995" as="sourcePoint" />
             <mxPoint x="407.83" y="511.80999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-297" value="AuthController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=0;strokeColor=default;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-269">
+          <mxGeometry x="85" y="515.25" width="318.9" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-298" value="- _configuration: IConfiguration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="26" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-300" value="- _db: ApplicationContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="52" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-302" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="78" width="318.9" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-301" value="+ Register(UserParameters): Task&lt;ActionResult&lt;User&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="86" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-304" value="+ Login(UserParameters): Task&lt;ActionResult&lt;string&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="112" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-305" value="+ Whoami(): Task&lt;ActionResult&lt;UserResponse&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="138" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-306" value="- GetCurrentUser(): UserResponse?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="164" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-307" value="- GenerateToken(User): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="190" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-308" value="- CreatePasswordHash(string, out byte[], out byte[])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="216" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-309" value="- VerifyPasswordHash(string, byte[], byte[]): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;startSize=26;" vertex="1" parent="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry y="242" width="318.9" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-310" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontFamily=Jetbrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetbrains%2BMono;fontSize=12;fontColor=default;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.001;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Re88ZT5anFD6ZDDiWKG8-269" source="Re88ZT5anFD6ZDDiWKG8-274" target="Re88ZT5anFD6ZDDiWKG8-297">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-87.99000000000001" y="295.27" as="sourcePoint" />
+            <mxPoint x="72.01000000000005" y="295.27" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="139.25" />
+              <mxPoint x="18" y="531.25" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
