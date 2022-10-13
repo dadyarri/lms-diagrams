@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T18:09:12.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xPkIKV2aN8zWd1ThRR-X" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T19:26:50.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="v3tACj-wKntHLbKV4Bw_" version="20.4.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2370" dy="1257" grid="1" gridSize="3.937" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="700" dy="744" grid="1" gridSize="3.937" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,7 +298,7 @@
             <mxRectangle width="39" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re88ZT5anFD6ZDDiWKG8-256" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 17px;&quot;&gt;&amp;nbsp;Диаграмма классов&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;dashed=1;sketch=0;rowspan=6;colspan=7;" parent="Re88ZT5anFD6ZDDiWKG8-248" vertex="1">
+        <mxCell id="Re88ZT5anFD6ZDDiWKG8-256" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 17px;&quot;&gt;&amp;nbsp;Диаграмма классов&lt;br&gt;Версия 1&lt;br&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;dashed=1;sketch=0;rowspan=6;colspan=7;" parent="Re88ZT5anFD6ZDDiWKG8-248" vertex="1">
           <mxGeometry x="233" width="276" height="120" as="geometry">
             <mxRectangle width="50" height="20" as="alternateBounds" />
           </mxGeometry>
